@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Shortly URL shortening API Challenge</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <div class="navbar">
+
+        <div class="logo"><a href="#"><img src="images/logo.svg" alt="Shortly Logo"></a></div>
+        
+        <div class="navigation">
+
+          <div class="navlinks">
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="divider"></div>
+          <div class="login-buttons">
+            <a href="#" class="btn">Login</a>
+            <a href="#" class="btn contained">Sign Up</a>
+          </div>
+
+        </div>
+        
+        <div class="hamb-menu">
+          <span class="hamb-line"></span>
+          <span class="hamb-line"></span>
+          <span class="hamb-line"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="hero">
+    <div class="hero__info">
+      <h1 class="u-mb-small">More than just 
+        <span>shorter links</span> </h1>
+      <p>Build your brand’s recognition and get detailed insights 
+        on how your links are performing.</p>
+        <a href="#" class="btn contained">Get Started</a>
+    </div>
+    <div class="hero__image">
+
+    </div>
+    
+  </section>
+
+  <section class="form-section">
+    <div class="container">
+      <!-- <form method="POST" action="https://api.shrtco.de/v2/shorten?" class="urlForm"> -->
+      <form class="urlForm">
+
+        <div class="input-field">
+          <span id="error-label-span"></span>
+          <input type="text" name="url" id="url" placeholder="Shorten a link here...">
+        </div>
+
+        <button type="submit" class="submit-btn"><span class="button__text">Shorten It!</span></button>     
+     </form>
+
+     <div class="links">
+
+       <!-- <div class="link-container">
+        <div class="ready-link">
+          <div class="original-link">https://www.google.com/ksjdffo</div>
+          <div class="shortened-link">https://bit.ly/eim3o</div>
+        </div>
+        <div class="copy-btn-container">
+          <input type="submit" class="btn contained copy-btn" value="Copy"> 
+        </div>
+       </div> -->
+       
+     </div>
+
+
+    </div>
+    
+  </section>
+  <section class="statistics">
+    <div class="container">
+      <div class="statistic__head">
+        <h3 class="statistics__head--title" >Advanced Statistics</h3>
+        <p class="statistics__head--text">Track how your links are performing across the web with our 
+          advanced statistics dashboard.</p>
+      </div>
+      
+
+      <div class="statistics__cards">
+
+        <div class="card">
+          <div class="card__icon"><img src="images/icon-brand-recognition.svg" alt=""></div>
+          <div class="card__title"><h4>Brand Recognition</h4></div>
+          <div class="card__text"><p>Boost your brand recognition with each click. Generic links don’t 
+            mean a thing. Branded links help instil confidence in your content.</p></div>
+        </div>        
+
+        <div class="card">
+          <div class="card__icon"><img src="images/icon-detailed-records.svg" alt=""></div>
+          <div class="card__title"><h4>Detailed Records</h4></div>
+          <div class="card__text"><p>Gain insights into who is clicking your links. Knowing when and where 
+            people engage with your content helps inform better decisions.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card__icon"><img src="images/icon-fully-customizable.svg" alt=""></div>
+          <div class="card__title"><h4>Fully Customizable</h4></div>
+          <div class="card__text"><p>Improve brand awareness and content discoverability through customizable 
+            links, supercharging audience engagement.</p></div>
+        </div>
+
+        <div class="back-line"></div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="boost">
+    <h3 class="boost__title" >Boost your links today</h3>
+    <a href="#" class="btn contained">Get Started</a>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__left">
+        <img src="images/logo_white.svg" alt="">
+      </div>
+      <div class="footer__center">
+        <div class="links-column">
+          <div class="links-column--title">Features</div>
+          <div class="links-column--links">
+            <a href="#">Link Shortening</a>
+            <a href="#">Branded Links</a>
+            <a href="#">Analytics</a>
+          </div> 
+        </div>
+        <div class="links-column">
+          <div class="links-column--title">Resources</div> 
+          <div class="links-column--links">
+            <a href="#">Blog</a>
+            <a href="#">Developers</a>
+            <a href="#">Support</a>
+          </div>
+        </div>
+        <div class="links-column">
+          <div class="links-column--title">Company</div> 
+          <div class="links-column--links">
+            <a href="#">About</a>
+            <a href="#">Our Team</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="social-links">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-pinterest-square"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
